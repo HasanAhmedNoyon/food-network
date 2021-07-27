@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 70px;
+    margin: 0% 10%;
+    display: flex;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: black;
+}
+
+.menu-item {
+    display: flex;
+    float: right;
+    width: 70%;
+    height: 100%;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-item ul li {
+    float: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-item ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 16px;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+}
+
+.menu-item ul li:hover a {
+    border-bottom: 2px solid rgb(207, 200, 200);
+    padding: 5px;
+    transition: all ease-in-out;
+}
+
+
+/*Header Start*/
+
+header {
+    height: 100vh;
+}
+
+.header-bg {
+    margin: 0% 10%;
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left {
+    width: 50%;
+    float: left;
+}
+
+.header-left h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-left h1 span {
+    color: #FBA24F;
+}
+
+.header-left p {
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #828282;
+    line-height: 160%;
+    /* or 32px */
+    letter-spacing: -0.02em;
+}
+
+.header-left button {
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-left button a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.header-right {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+
+.header-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
